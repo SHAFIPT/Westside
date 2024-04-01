@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Westside clone</title>
+</head>
+<body>
+   
+   <!-- Navbar  -->
+
+    <nav class="navbar1">
+          <img src="images/w-logo.avif" alt="">
+          <i class="bi bi-list" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"></i>
+          <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button> -->
+
+          <!-- SEARCH SECTION -->
+          <ul class="links-ul1">
+            <li class="links-li">
+                <i class="bi bi-search"></i>
+                <input type="text" placeholder="Search for dresses...">
+            </li>
+            
+          </ul>
+
+
+          <!-- Right_navbar -->
+
+          
+          <ul class="last-links">
+            <li class="links-li px-2">
+              <i class="bi bi-heart"></i>
+            </li>
+            <li class="links-li px-2">
+                <i class="bi bi-bag"></i>
+            </li>
+            <li class="links-li px-2">
+              <a class="links-a" href="#">Sign in</a>
+            </li>
+          </ul>
+        
+          
+          <!-- side_nav -->
+
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasRightLabel"><img src="images/w-logo.avif" alt=""></h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+      <ul class="second-ul1  ">
+        <li class="text-nowrap" ><a href="">Online Only<i class="fa-solid fa-chevron-down "></i></a></li>
+        <li class="text-nowrap" ><a href="">Woman<i class="fa-solid fa-chevron-down ps-2"></i></a></li>
+        <li class="text-nowrap" ><a href="">Men<i class="fa-solid fa-chevron-down ps-2"></i></a></li>
+        <li class="text-nowrap" ><a href="">Kids<i class="fa-solid fa-chevron-down ps-2"></i></a></li>
+        <li class="text-nowrap" ><a href="">Beauty<i class="fa-solid fa-chevron-down ps-2"></i></a></li>
+        <li class="text-nowrap" ><a href="">Home<i class="fa-solid fa-chevron-down ps-2"></i></a></li>
+        <li class="text-nowrap" ><a href="">Brand<i class="fa-solid fa-chevron-down ps-2"></i></a></li>
+        <li class="text-nowrap" ><a href="">W-style</a></li>
+        <li class="text-nowrap" ><a href="">View More</a></li>
+    </ul>
+  </div>
+</div>
+      </nav>
+
+      <!-- Second_nav -->
+
+      <div class="second_nav ">
+        <ul class="second-ul d-flex ">
+            <li class="text-nowrap"><a href="">Online Only<i class="fa-solid fa-chevron-down ps-2"></i></a></li>
+            <li class="text-nowrap" ><a href="">Woman<i class="fa-solid fa-chevron-down ps-2"></i></a></li>
+            <li class="text-nowrap" ><a href="">Men<i class="fa-solid fa-chevron-down ps-2"></i></a></li>
+            <li class="text-nowrap" ><a href="">Kids<i class="fa-solid fa-chevron-down ps-2"></i></a></li>
+            <li class="text-nowrap" ><a href="">Beauty<i class="fa-solid fa-chevron-down ps-2"></i></a></li>
+            <li class="text-nowrap" ><a href="">Home<i class="fa-solid fa-chevron-down ps-2"></i></a></li>
+            <li class="text-nowrap" ><a href="">Brand<i class="fa-solid fa-chevron-down ps-2"></i></a></li>
+            <li class="text-nowrap" ><a href="">W-style</a></li>
+            <li class="text-nowrap" ><a href="">View More</a></li>
+        </ul>
+      </div>
+
+      <!-- First_div_image -->
+
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner w-100 h-100">
+
+            <picture class="image-parent carousel-item active w-100 h-100">
+                <source media="(max-width: 779px)" srcset="images/main_img_phone.webp">
+                <img src="images/main.img" class="d-block " alt="...">
+              </picture>
+
+              <picture class="image-parent carousel-item active w-100 h-100">
+                <source media="(max-width: 779px)" srcset="images/main_img_phone1.upda.webp">
+                <img src="images/main.img1.webp" class="d-block " alt="...">
+              </picture>
+
+              <picture class="image-parent carousel-item active w-100 h-100">
+                <source media="(max-width: 779px)" srcset="images/main_img_phone2.webp">
+                <img src="images/main.img2.webp" class="d-block " alt="...">
+              </picture>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      </div>
+
+      <!-- Second_div_image -->
+
+      <div id="carouselExample1" class="carousel slide">
+        <div class="carousel-inner w-100 h-100">
+
+            <picture class="image-parent carousel-item active w-100 h-100">
+                <source media="(max-width: 779px)" srcset="images/formal_second_phone1.webp">
+                <img src="images/formal_second.webp" class="d-block " alt="...">
+              </picture>
+
+              <picture class="image-parent carousel-item active w-100 h-100">
+                <source media="(max-width: 779px)" srcset="images/formal_second_phone2.webp">
+                <img src="images/formal_second.webp1.webp" class="d-block " alt="...">
+              </picture>
+
+              <picture class="image-parent carousel-item active w-100 h-100">
+                <source media="(max-width: 779px)" srcset="images/formal_second_phone3.webp">
+                <img src="images/formal_second.webp2.webp" class="d-block " alt="...">
+              </picture>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample1" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample1" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      </div>
+
+      <!-- Third_div_image -->
+
+
+      <div id="carouselExample2" class="carousel slide">
+        <div class="carousel-inner w-100 h-100">
+
+            <picture class="image-parent carousel-item active w-100 h-100">
+                <source media="(max-width: 779px)" srcset="images/new_third_image_phone.webp">
+                <img src="images/new_third_image.webp" class="d-block " alt="...">
+              </picture>
+
+              <picture class="image-parent carousel-item active w-100 h-100">
+                <source media="(max-width: 779px)" srcset="images/new_third_image_phone1.webp">
+                <img src="images/new_third_image1.webp" class="d-block " alt="...">
+              </picture>
+
+              <picture class="image-parent carousel-item active w-100 h-100">
+                <source media="(max-width: 779px)" srcset="images/new_third_image_phone2.webp">
+                <img src="images/new_third_image2.webp" class="d-block " alt="...">
+              </picture>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample2" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>   
+      </div>   
+
+      <!-- Fourth_div_image -->
+
+
+      <div id="carouselExample3" class="carousel slide">
+        <div class="carousel-inner w-100 h-100">
+
+            <picture class="image-parent carousel-item active w-100 h-100">
+                <source media="(max-width: 779px)" srcset="images/fourth_image_phone.webp">
+                <img src="images/formal_fourth.webp" class="d-block " alt="...">
+              </picture>
+
+              <picture class="image-parent carousel-item active w-100 h-100">
+                <source media="(max-width: 779px)" srcset="images/fourth_image_phone1.webp">
+                <img src="images/fourth_image1.webp" class="d-block " alt="...">
+              </picture>
+
+              <picture class="image-parent carousel-item active w-100 h-100">
+                <source media="(max-width: 779px)" srcset="images/fourth_image_phone2.webp">
+                <img src="images/fourth_image2.webp" class="d-block " alt="...">
+              </picture>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample3" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample3" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>  
+      </div>
+
+      <!-- Fifth_div_image -->
+
+
+      <div id="carouselExample4" class="carousel slide">
+        <div class="carousel-inner w-100 h-100">
+
+            <picture class="image-parent carousel-item active w-100 h-100">
+                <source media="(max-width: 779px)" srcset="images/fifth_image_phone.webp">
+                <img src="images/formal_fifth.webp" class="d-block " alt="...">
+              </picture>
+
+              <picture class="image-parent carousel-item active w-100 h-100">
+                <source media="(max-width: 779px)" srcset="images/fifth_image_phone1.webp">
+                <img src="images/fifth_image.webp" class="d-block " alt="...">
+              </picture>
+
+              <picture class="image-parent carousel-item active w-100 h-100">
+                <source media="(max-width: 779px)" srcset="images/fift.webp">
+                <img src="images/fifth_image1.webp" class="d-block " alt="...">
+              </picture>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample4" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample4" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div> 
+      </div> 
+
+      <!-- Sixth_image -->
+
+      <div id="carouselExample4" class="carousel slide">
+        <div class="carousel-inner w-100 h-100">
+
+            <picture class="image-parent carousel-item active w-100 h-100">
+                <source media="(max-width: 779px)" srcset="images/sixith_img.webp">
+                <img src="images/formal_sixth.webp" class="d-block " alt="...">
+              </picture>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample4" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample4" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div> 
+      </div>
+
+      <!-- Footer -->
+
+      <div class="footer">
+        <div class="row">
+          <div class="image_footer col-3">
+            <ul>
+              <li>
+                <h1>DOWNLOAD THE APP</h1>
+              </li>
+              <li>
+                <img src="images/gooleplay_new.webp" alt="">
+              </li>
+              <li><img src="images/appstore.new.webp" alt=""></li>
+            </ul>  
+          </div>
+          <div class="col-3">
+            <ul>
+              <li>
+                <h1>SHOP</h1>
+              </li>
+              <li>
+                <a href="#">WOMEN</a>
+              </li>
+              <li>
+                <a href="#">MEN</a>
+              </li>
+              <li>
+                <a href="#">KIDS</a>
+              </li>
+              <li>
+                <a href="#">BEAUTY</a>
+              </li>
+              <li>
+                <a href="#">HOME</a>
+              </li>
+            </ul>
+        </div>
+        <div class="col-3">
+          <ul>
+            <li>
+              <h1>SITES & STORES</h1>
+            </li>
+            <li>
+              <a href="#">ABOUT US</a>
+            </li>
+            <li>
+              <a href="#">CONTACT US</a>
+            </li>
+            <li>
+              <a href="#">STORE LOCATOR</a>
+            </li>
+            <li>
+              <a href="#">MEDIA CENTER</a>
+            </li>
+            <li>
+              <a href="#">SITEMAP</a>
+            </li>
+            <li>
+              <a href="#">MEMBERSHIP</a>
+            </li>
+          </ul>
+      </div>
+      <div class="col-3">
+        <ul>
+          <li>
+            <h1>JOIN OUR NEWSLETTER</h1>
+          </li>
+          <li>Get the latest updates from our stores</li>
+          <li>
+            <input type="text" name="" id="" placeholder="Email Id">
+          </li> 
+          <li>
+            <button>SUBSCRIBE</button>
+          </li>
+        </ul>
+      </div>
+      </div>
+      <hr>
+      </div>
+
+      <!-- phone_size_footer -->
+
+      <div class="phone_size">
+        <div class="text_h1">
+          <h1>Join Our Newsletter</h1>
+        </div>
+        <div class="sign_in">
+            <input type="text" placeholder="Email Id">
+            <button>SUBSCRIBE</button>
+        </div>
+          <div class="phone_footer">
+          <h2>Follow Us On</h2>
+  
+            <div class="a_tags">
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            .
+          <h1>Download Our Mobile App</h1>
+           
+          <div class="stores">
+              <img src="images/gooleplay_new.webp" alt="">
+              <img src="images/appstore.new.webp" alt="">
+          </div>
+        </div>
+      </div>
+      
+      <!-- footer -->
+
+      <div class="main_footer">
+        <ul>
+          <li>
+            TERMS & CONDITIONS
+          </li>
+          <li>
+            PRIVACY POLICY
+          </li>
+          <li>
+            RETURN POLICY
+          </li>
+        </ul>
+        <div class="footer_a-tags">
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+
+      <!-- phone_footer -->
+
+       <div class="phone_footer1">
+        <ul>
+          <hr>
+          <li>
+            <i class="fa-solid fa-house"></i>
+            <h1>Home</h1>
+          </li>
+          <li>
+            <i style="color:  #888888;" class="fa-solid fa-list"></i>
+            <h1 style="color: #888888;">Categories</h1>
+          </li>
+          <li>
+            <i style="color:  #888888;" class="fa-solid fa-magnifying-glass"></i>
+            <h1 style="color:  #888888;" >Search</h1>
+          </li>
+          <li>
+            <i style="color:  #888888;" class="fa-solid fa-bag-shopping"></i>
+            <h1 style="color:  #888888;" >Bag</h1>
+          </li>
+          <li>
+            <i style="color:  #888888;" class="fa-regular fa-user"></i>
+            <h1 style="color:  #888888;" >Profle</h1>
+          </li>
+        </ul>
+       </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
